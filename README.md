@@ -2,10 +2,10 @@
 
 A CLI tool wrapping the [HeyReach API](https://documenter.getpostman.com/view/23808049/2sA2xb5F75), optimized for LLM agent consumption. Built with [Spectre.Console](https://spectreconsole.net/) and .NET 10.
 
-## Setup
+## Install
 
 ```bash
-dotnet build src/Heyreach.Console
+dotnet tool install --global Heyreach.Console
 ```
 
 Set your API key:
